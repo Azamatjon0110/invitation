@@ -32,7 +32,7 @@
         <img src="./images/ChatGPT Image 9 июл. 2026 г., 17_39_42.png" alt="">
       </div>
       <div class="next">
-        <div class="date" data-aos="fade-up" data-aos-duration="500">Sana: 17/07/26</div>
+        <div class="date" data-aos="fade-up" data-aos-duration="500">Sana: <br> 17/07/26</div>
       </div>
       <div class="hall" data-aos="fade-up" data-aos-duration="500">Juma kuni</div>
       
@@ -192,7 +192,7 @@
   position: relative;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 60px;
+  font-size: 40px;
   color: #000;
 }
 
@@ -222,7 +222,7 @@
 
 .time {
   margin-top: 20px;
-  font-size: 60px;
+  font-size: 40px;
   color: #000;
 }
 
