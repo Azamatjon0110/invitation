@@ -33,15 +33,14 @@
       </div>
       <div class="next">
         <div class="date" data-aos="fade-up" data-aos-duration="500">Sana: 17/07/26</div>
-        <!-- <p class="next_text">Pastga suring</p> -->
       </div>
-      <div class="hall" data-aos="fade-up" data-aos-duration="500">'Nuru-Dur' To‘yxonasi</div>
+      <div class="hall" data-aos="fade-up" data-aos-duration="500">Juma kuni</div>
       
       <div class="info" data-aos="fade-up" data-aos-duration="500">
       <u>
  Mehmonlar yig‘ilishi <br />
       </u>  
-        Farg'ona viloyati, Bag'dod tumani, <br>Cho'rindi qishlog'i, Navro'z ko'chasi, 619-uy
+        Farg'ona viloyati, Bag'dod tumani, <br>Cho'rindi qishlog'i, Navro'z ko'chasi, 2-uy
       </div>
       <div class="time" data-aos="fade-up" data-aos-duration="500">Vaqt :10:00</div>
       <div class="city">
@@ -50,25 +49,26 @@
       <div class="img-box city">
         <img class="img" src="./images/ChatGPT Image 9 июл. 2026 г., 17_42_03.png" alt="">
       </div>
+      <p class="next_text">Kechki bazm dasturxoni vaqti : <b>16:00</b> </p>
       <div class="map-title">To'yxona manzili</div>
-
+      
       <p class="address" data-aos="fade-up" data-aos-duration="500">
-        Farg'ona viloyati, Bag'dod tumani,<br> Qahramon ko'chasi 619
+        Farg'ona viloyati, Bag'dod tumani,<br> Qahramon ko'chasi, 619-uy
       </p>
-
+      
       <a
         href="https://maps.app.goo.gl/cjNHUFFcdpV8R4Yr6"
         target="blank"
         class="button"
       >
-        Yandex Lokatsiya
+      Google Lokatsiya 
       </a>
       <a
         href="https://yandex.uz/maps/-/CTBAqL8x"
         target="blank"
         class="button"
       >
-        Google Lokatsiya 
+        Yandex Lokatsiya
       </a>
 
       <p class="address" data-aos="fade-up" data-aos-duration="500">
@@ -93,7 +93,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Georgia, serif;
+  font-family: cursive;
 }
 
 .page {
@@ -144,28 +144,22 @@
 }
 
 .next_text{
-  position: relative;
+  /* position: relative; */
+  font-size: 40px;
+  padding-top: 40px;
 
 }
 
-.next_text::after{
-  width: 100%;
-   position: absolute;
-  width: 15px;
-  height: 20px;
-  content: '';
-  top: 0;
-  right: 0;
-  background-image: url('./images/arrow.png');
-  z-index: 2;
-  
-}
 
 .logo {
   padding-bottom: 10px;
   font-size: 60px;
   color: #c89b2d;
+  font-family: 'Georgia', sans-serif !important;
   letter-spacing: 5px;
+}
+.logo span{
+  font-family: 'Georgia', sans-serif;
 }
 
 .names {
@@ -188,7 +182,8 @@
   margin-top: 50px;
   font-size: 24px;
   line-height: 1.5;
-  font-style: oblique;
+  font-family: "Rancho", cursive;
+  font-optical-sizing: auto;
   text-transform: uppercase;
   color: #333;
 }
@@ -240,9 +235,9 @@
 
 .address {
   margin-top: 25px;
-  font-size: 22px;
+  font-size: 28px;
   line-height: 1.6;
-  color: #666;
+  color: #000;
 }
 .map{
   width: 100%;
@@ -266,7 +261,7 @@
 }
 
 .map-title {
-  margin-top: 70px;
+  margin-top: 40px;
   font-size: 50px;
   font-style: italic;
   color: #c89b2d;
